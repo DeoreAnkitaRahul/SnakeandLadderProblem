@@ -3,11 +3,10 @@
     class Program
     {
         public static void Main(string[] args)
-       
-            {
-                Console.WriteLine("Currently we are at position zero Please roll a die");
-            }
+        {
+            Random rnd = new Random();
+            int dice = rnd.Next(1, 7);
+            Console.WriteLine("Number on the dice is: " + dice);
         }
     }
-
- 
+}
