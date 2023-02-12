@@ -3,10 +3,11 @@
     class Program
     {
         public static void Main(string[] args)
-        {
-
-            Console.WriteLine("Welcome to Snake and Ladder Problem");
-
+       
+            {
+                Console.WriteLine("Currently we are at position zero Please roll a die");
+            }
         }
     }
-}
+
+ 
